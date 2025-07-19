@@ -22,7 +22,7 @@ Gmail integration to deliver the message
 🧩 Nodes Used
 Trigger: Manual + Cron (7 AM)
 
-HTTP Request: GET https://api.open-meteo.com/v1/forecast
+HTTP Request: https://api.open-meteo.com/v1/forecast?latitude=37.16&longitude=10.18&hourly=temperature_2m&timezone=GMT
 
 Code: Extracts high and low temps for today from hourly data
 
