@@ -1,4 +1,4 @@
-<h4>🌤️ Daily Weather Email Notification Workflow (n8n) </h4>
+<h1>🌤️ Daily Weather Email Notification Workflow (n8n) </h1>
 <h3>📌 Description </h3>
 This workflow fetches the daily weather forecast for Ghar El Melh (Tunisia) every morning at 7:00 AM, formats it into a human-readable message, and automatically sends it to your Gmail inbox.
 
@@ -22,7 +22,7 @@ Gmail integration to deliver the message
 🧩 Nodes Used
 Trigger: Manual + Cron (7 AM)
 
-<h2>HTTP Request:</h2> https://api.open-meteo.com/v1/forecast?latitude=37.16&longitude=10.18&hourly=temperature_2m&timezone=GMT
+<h4>HTTP Request:</h4> https://api.open-meteo.com/v1/forecast?latitude=37.16&longitude=10.18&hourly=temperature_2m&timezone=GMT
 
 Code: Extracts high and low temps for today from hourly data
 
