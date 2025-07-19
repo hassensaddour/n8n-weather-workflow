@@ -20,13 +20,13 @@ Gmail integration to deliver the message
 🔐 Built with privacy in mind (no third-party backend)
 <img width="1269" height="606" alt="Capture d'écran 2025-07-19 020230" src="https://github.com/user-attachments/assets/54d31591-69a0-4348-a155-6e8e46430054" />
 🧩 Nodes Used
-Trigger: Manual + Cron (7 AM)
+<h4> Trigger: </h4> Manual + Cron (7 AM)
 
-<h4>HTTP Request:</h4> https://api.open-meteo.com/v1/forecast?latitude=37.16&longitude=10.18&hourly=temperature_2m&timezone=GMT
+<h4> HTTP Request: </h4> https://api.open-meteo.com/v1/forecast?latitude=37.16&longitude=10.18&hourly=temperature_2m&timezone=GMT
 
-Code: Extracts high and low temps for today from hourly data
+<h4> Code: </h4> Extracts high and low temps for today from hourly data
 
-Gmail: Sends the message to inbox
+<h4> Gmail: </h4> Sends the message to inbox
 
 📧 Sample Output
 📅 2025-07-19
