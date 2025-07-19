@@ -1,4 +1,4 @@
-🌤️ Daily Weather Email Notification Workflow (n8n)
+<h4>🌤️ Daily Weather Email Notification Workflow (n8n) </h4>
 <h3>📌 Description </h3>
 This workflow fetches the daily weather forecast for Ghar El Melh (Tunisia) every morning at 7:00 AM, formats it into a human-readable message, and automatically sends it to your Gmail inbox.
 
